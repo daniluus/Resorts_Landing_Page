@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort</title>
+
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-200">
+    <!-- HEADER -->
+    <header class="bg-white">
+        <div class="container max-w-5xl mx-auto flex items-center justify-between py-4">
+            <h1 class="font-black text-2xl hover:text-blue-500 cursor-pointer">LOGO</h1>
+
+            <ul class="flex space-x-4">
+                <li>
+                    <a class="hover:underline" href="#">Como reservar</a>
+                </li>
+                <li>
+                    <a class="hover:underline" href="#">Sobre nós</a>
+                </li>
+                <li>
+                    <a class="hover:underline" href="#">Informações</a>
+                </li>
+                <li>
+                    <a class="hover:underline" href="#">Contato</a>
+                </li>
+        </ul>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="" style="background-image: url('./img/HERO_BG.png'); height: 440px">
+        <!-- CONTAINER -->
+        <div class="container max-w-5xl mx-auto h-full flex flex-col items-center justify-center text-slate-100">
+            <h1 class="font-bold text-xl lg:text-2xl">Onde você quer ir?</h1>
+            <p class="font-base text-sm">Escolha o estado e cidade com os melhores resorts.</p>
+
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 mt-6">
+                <select name="" id="" class="text-stone-500 px-4 py-2 border border-stone-300 rounded">
+                    <option value="">Escolha estado</option>
+                </select>
+                <select name="" id="" class="text-stone-500 px-4 py-2 border border-stone-300 rounded">
+                    <option value="">Escolha cidade</option>
+                </select>
+                <button class="flex col-span-2 lg:col-span-1 items-center justify-center px-4 py-2 bg-amber-500 text-amber-800 border border-amber-800 rounded">
+                    <svg class="w-4 h-4 mr-2" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    Pesquisar resorts
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- DESTAQUE -->
+    <section class="container max-w-5xl mx-auto py-16 flex flex-col-reverse lg:flex-row items-center">
+        <!-- DESCRIÇÃO -->
+        <div class="flex flex-col items-center lg:items-start mt-4 lg:mt-0 text-stone-500">
+            <p class="text-base font-bold">RESORT EM DESTAQUE</p>
+            <h2 class="text-lg text-stone-700">ECORESORT PRAIA DA PEDRA</h2>
+            <p class="py-2 text-sm">Hotel qualidade 5 estrelas</p>
+            
+            <div class="py-4 space-y-3 text-stone-700 w-3/4">
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatem, non nesciunt itaque dolorum distinctio earum aperiam</p>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatem, non nesciunt itaque dolorum distinctio earum aperiam</p>
+            </div>
+            
+            <button class="flex items-center mt-2 px-4 py-2 bg-amber-500 text-amber-800 rounded shadow-md">
+                Solicitar reserva
+                <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- IMG Resort -->
+        <div class="">
+            <img src="./img/Resort_01.png" alt="">
+        </div>
+    </section>
+
+    <!-- RESORTS -->
+    <section class="container max-w-5xl mx-auto px-4 lg:px-0">
+        <h2 class="text-lg text-stone-700 text-center mb-4">Conheça mais resorts</h2>
+
+        <ul class="sm:grid sm:grid-cols-4 sm:grid-rows-2 sm:gap-4 space-y-6 sm:space-y-0">
+            <li class="col-span-2 row-span-2 rounded overflow-hidden">
+                <img class="w-full h-full object-cover" src="./img/Resort_02.png" alt="">
+            </li>
+            <li class="sm:col-span-2 rounded sm:h-40 overflow-hidden">
+                <img class="w-full h-full object-cover" src="./img/Resort_03.png" alt="">
+            </li>
+            <li class="rounded overflow-hidden">
+                <img class="w-full h-full object-cover" src="./img/Resort_04.png" alt="">
+            </li>
+            <li class="rounded overflow-hidden">
+                <img class="w-full h-full object-cover" src="./img/Resort_05.png" alt="">
+            </li>
+        </ul>
+    </section>
+
+    <!-- PESQUISA -->
+    <section class="container max-w-5xl mx-auto grid grid-cols-2 lg:grid-cols-3 px-6 lg:px-0 gap-3 mt-20">
+        <select name="" id="" class="text-stone-500 px-4 py-2 border border-stone-300 rounded">
+            <option value="">Escolha estado</option>
+        </select>
+        <select name="" id="" class="text-stone-500 px-4 py-2 border border-stone-300 rounded">
+            <option value="">Escolha cidade</option>
+        </select>
+        <button class="flex col-span-2 lg:col-span-1 items-center justify-center px-4 py-2 bg-amber-500 text-amber-800 border border-amber-800 rounded">
+            <svg class="w-4 h-4 mr-2" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            Pesquisar resorts
+        </button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="container max-w-5xl mx-auto p-4 flex items-center justify-between mt-20">
+        <h1 class="font-black text-2xl">LOGO</h1>
+
+        <ul class="flex items-center space-x-2">
+            <li>
+                INSTAGRAM
+            </li>
+            <li>
+                FACEBOOK
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
